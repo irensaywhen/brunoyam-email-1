@@ -21,7 +21,7 @@
       * {
         word-break: normal;
       }
-      
+
       .phone div {
         padding-top: 8px !important;
       }
@@ -43,6 +43,13 @@
 
       .social-icon table {
         margin: 4px 8px !important;
+      }
+
+      .review {
+        width: 97px !important;
+        height: 64px !important;
+        border-radius: 5px;
+        box-shadow: 0px 4px 12px rgba(101, 104, 118, 0.16);
       }
 
       @media all and (min-width: 480px) {
@@ -124,13 +131,47 @@
                   background-color="#fff"
                   border-radius="4px"
                   padding="24px 24px 32px 24px">
-        <mj-column
-                   width="20%">
+        <!--Google-->
+        <mj-column css-class="review">
           <mj-image 
                     src="https://i.ibb.co/Kq7XzNz/google.png"
-                    css-class="review-icon"/>
+                    width="40px"
+                    height="40px"
+                    padding-top="12px"/>
         </mj-column>
 
+        <!--Yandex-->
+        <mj-column css-class="review">
+          <mj-image 
+                    src="https://i.ibb.co/X4rSNs2/yandex.png"
+                    width="65px"
+                    padding-top="23px"/>
+        </mj-column>
+
+        <!--Zoon-->
+        <mj-column css-class="review">
+          <mj-image 
+                    src="https://i.ibb.co/GxMF674/zoon.png"
+                    width="70px"
+                    padding-top="24px"/>
+        </mj-column>
+
+        <!--Y-->
+        <mj-column css-class="review">
+          <mj-image 
+                    src="https://i.ibb.co/f0nc08H/y.png"
+                    width="40px"
+                    height="40px"
+                    padding-top="12px"/>
+        </mj-column>
+
+        <!--Reviewer-->
+        <mj-column css-class="review">
+          <mj-image 
+                    src="https://i.ibb.co/MVMmwYD/review.png"
+                    width="78px"
+                    padding-top="15px"/>
+        </mj-column>
       </mj-section>
 
       <mj-include path="./footer.mjml" />
