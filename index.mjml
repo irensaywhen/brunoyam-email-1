@@ -9,8 +9,19 @@
 
     <!--Header styles-->
     <mj-style>
-      .logo {
-        
+      .phone div {
+        padding-top: 8px !important;
+      }
+
+      @media all and (min-width: 480px) {
+        .logo table {
+          margin-right: auto !important;
+        }
+
+        .phone div {
+          text-align: right !important;
+          padding-top: 0;
+        }
       }
     </mj-style>
   </mj-head>

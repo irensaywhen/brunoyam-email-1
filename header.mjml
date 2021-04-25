@@ -1,6 +1,6 @@
-<mj-section background-color="#444" padding="24px 20px">
+<mj-section padding="24px 20px">
   <!--Logo-->
-  <mj-column background-color="red" css-class="logo">
+  <mj-column>
     <mj-image
       width="131px"
       height="28px"
@@ -10,7 +10,13 @@
   </mj-column>
 
   <!--Phone-->
-  <mj-column>
-    <mj-text> Test! </mj-text>
+  <mj-column vertical-align="middle">
+    <mj-text  
+            font-size="16px"
+            color="#EB5D18"
+            align="center"
+            css-class="phone">
+      +7 (812) 409-35-11
+    </mj-text>
   </mj-column>
 </mj-section>
