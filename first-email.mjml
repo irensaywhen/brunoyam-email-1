@@ -23,7 +23,11 @@
       }
 
       a {
-        color: #EB5D18;
+        color: #EB5D18 !important;
+      }
+
+      .phone a {
+        text-decoration: none;
       }
 
       .wrapper {

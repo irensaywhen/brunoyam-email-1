@@ -4,6 +4,7 @@
     <mj-image
       width="131px"
       height="28px"
+      href="#"
       src="https://i.ibb.co/vPRyBLc/logo.png"
       css-class="logo"
     />
@@ -16,7 +17,7 @@
             color="#EB5D18"
             align="center"
             css-class="phone">
-      +7 (812) 409-35-11
+      <a href="tel:+78124093511">+7 (812) 409-35-11</a>
     </mj-text>
   </mj-column>
 </mj-section>
