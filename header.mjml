@@ -1,6 +1,6 @@
 <mj-section padding="24px 20px">
   <!--Logo-->
-  <mj-column>
+  <mj-column vertical-align="middle">
     <mj-image
       width="131px"
       height="28px"

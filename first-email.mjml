@@ -22,10 +22,6 @@
         word-break: normal;
       }
 
-      .phone div {
-        padding-top: 8px !important;
-      }
-
       a {
         color: #EB5D18;
       }
