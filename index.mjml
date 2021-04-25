@@ -18,6 +18,10 @@
 
     <!--Header styles-->
     <mj-style>
+      * {
+        word-break: normal;
+      }
+      
       .phone div {
         padding-top: 8px !important;
       }
