@@ -1,0 +1,16 @@
+<mj-section background-color="#444" padding="24px 20px">
+  <!--Logo-->
+  <mj-column background-color="red" css-class="logo">
+    <mj-image
+      width="131px"
+      height="28px"
+      src="https://i.ibb.co/vPRyBLc/logo.png"
+      css-class="logo"
+    />
+  </mj-column>
+
+  <!--Phone-->
+  <mj-column>
+    <mj-text> Test! </mj-text>
+  </mj-column>
+</mj-section>
