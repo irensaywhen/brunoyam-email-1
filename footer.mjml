@@ -1,0 +1,37 @@
+<mj-section css-class="footer">
+  <!--Title-->
+  <mj-column width="100%">
+    <mj-text 
+            padding-bottom="20px"
+            font-size="20px"
+            line-height="28px"
+            align="center"
+            font-weight="700">
+      Публикуем профессиональные статьи, новости педагогики, рассказываем о наших курсах в соцсетях
+    </mj-text>
+  </mj-column>
+
+  <!--Social icons-->
+  <mj-column width="100%">
+    <mj-social font-size="15px" icon-size="30px" mode="horizontal">
+
+      <!--Vk-->
+      <mj-social-element 
+                          href="#" 
+                          src="https://i.ibb.co/93CG2V1/vk.png"></mj-social-element>
+      
+      <!--Facebook-->
+      <mj-social-element 
+                          href="#" 
+                          src="https://i.ibb.co/D5PD3LT/facebook.png"></mj-social-element>
+
+      <!--Instagram-->
+      <mj-social-element 
+                          href="#" 
+                          src="https://i.ibb.co/qdDDQdp/instagram.png"></mj-social-element>
+        <mj-social-element 
+                          href="#" 
+                          src="https://i.ibb.co/JBmb8p0/youtube.png"></mj-social-element>
+      </mj-social>
+  </mj-column>
+</mj-section>

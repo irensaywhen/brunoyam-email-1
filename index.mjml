@@ -11,6 +11,9 @@
                font-weight="400"
                line-height="20px"
                />
+      <mj-social-element
+                        icon-size="40px"
+                        css-class="social-icon"/>
     </mj-attributes>
 
     <!--Header styles-->
@@ -24,7 +27,18 @@
       }
 
       .wrapper {
-          padding: 0 20px !important;
+          padding: 0 20px 40px !important;
+      }
+
+      .footer {
+        background-color: #fff;
+        margin-top: 16px !important;
+        padding: 32px 24px;
+        border-radius: 4px;
+      }
+
+      .social-icon table {
+        margin: 4px 8px !important;
       }
 
       @media all and (min-width: 480px) {
@@ -38,7 +52,11 @@
         }
 
         .wrapper {
-          padding: 0 50px !important;
+          padding: 0 50px 40px !important;
+        }
+
+        .social-icon table {
+          margin: 4px 16px !important;
         }
       }
     </mj-style>
@@ -110,6 +128,8 @@
         </mj-column>
 
       </mj-section>
+
+      <mj-include path="./footer.mjml" />
     </mj-wrapper>
   </mj-body>
 </mjml>
