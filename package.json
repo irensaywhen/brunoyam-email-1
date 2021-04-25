@@ -1,0 +1,15 @@
+{
+  "name": "first-email",
+  "version": "1.0.0",
+  "description": "First email for Brunoyam",
+  "main": "index.js",
+  "scripts": {
+    "build": "mjml src/index.mjml -o dist/index.html",
+    "dev": "mjml -w src/* -o dist/index.html"
+  },
+  "author": "Irina Gataullina",
+  "license": "ISC",
+  "dependencies": {
+    "mjml": "^4.9.1"
+  }
+}
