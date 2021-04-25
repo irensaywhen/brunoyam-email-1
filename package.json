@@ -4,8 +4,8 @@
   "description": "First email for Brunoyam",
   "main": "index.js",
   "scripts": {
-    "build": "mjml src/index.mjml -o dist/index.html",
-    "dev": "mjml -w src/* -o dist/index.html"
+    "build": "mjml index.mjml -o dist/index.html",
+    "dev": "mjml -w index.mjml -o dist/index.html"
   },
   "author": "Irina Gataullina",
   "license": "ISC",
