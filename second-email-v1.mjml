@@ -56,8 +56,8 @@
       }
 
       /* Articles start */
-      .article-text {
-        border: 1px solid red;
+      .article-body {
+        background-color: #ffffff;
         border-radius: 8px;
       }
       /* Articles end */
@@ -84,12 +84,12 @@
   </mj-head>
   <!-- Head ends-->
 
-  <mj-body width="700px" background-color="#F0F2F5">
+  <mj-body width="700px" background-color="#EDEFF3">
     <mj-wrapper css-class="wrapper">
       <mj-include path="./header.mjml" />
 
       <mj-section 
-                  background-color="#fff" 
+                  background-color="#F3F6FA" 
                   border-radius="4px"
                   padding="32px 24px 24px">
         <!-- Title -->
@@ -106,7 +106,7 @@
         <mj-column width="100%">
           <mj-text 
                    padding-top="32px"
-                   padding-bottom="16px"
+                   padding-bottom="8px"
                    font-size="20px"
                    line-height="28px"
                    font-weight="700">
@@ -114,19 +114,19 @@
           </mj-text>
         </mj-column>
 
-        <mj-group width="50%">
-          <!--Article image-->
+        <!--Article-->
+        <mj-group 
+                  width="50%"
+                  css-class="article">
           <mj-column 
-                    width="100%"
-                    padding-right="12px">
+                    width="94%"
+                    css-class="article-header">
             <mj-include path="./components/second-email/article-img.mjml" />
           </mj-column>
-
           <!--Article text-->
           <mj-column 
-                    width="100%"
-                    css-class="article-text"
-                    padding-right="12px">
+                    width="94%"
+                    css-class="article-body">
             <mj-text
                     padding="16px 12px 8px"
                     font-size="16px"
@@ -142,17 +142,34 @@
         </mj-group>
 
         <!--Article-->
-        <mj-column 
+        <mj-group 
                   width="50%"
-                  padding="16px 24px 0 12px"
-                  background-color="green">
-          <mj-text 
-                   font-size="20px"
-                   line-height="28px"
-                   font-weight="700">
-            Новые статьи
-          </mj-text>
-        </mj-column>
+                  css-class="article">
+          <mj-column 
+                    width="94%"
+                    css-class="article-header">
+            <mj-include path="./components/second-email/article-img.mjml" />
+          </mj-column>
+          <!--Article text-->
+          <mj-column 
+                    width="94%"
+                    css-class="article-body">
+            <mj-text
+                    padding="16px 12px 8px"
+                    font-size="16px"
+                    line-height="21px"
+                    font-weight="700">
+              Большой гайд по рекламе у блогеров в Instagram
+            </mj-text>
+            <mj-text 
+                    padding="0 12px 37px 12px">
+              Как выбрать блогера для своего продукта, как составить договор, и стоит ли работать с диджитал агенствами, вы узнаете в этой статье
+            </mj-text>
+          </mj-column>
+        </mj-group>
+
+
+        
 
         <!-- Second paragraph -->
         <mj-column
@@ -163,24 +180,23 @@
           </mj-text>
         </mj-column>
 
-        <!--Subtitle -->
+        <!--Discounts start -->
 			  <mj-column width="100%">
+          <!--Discount title-->
           <mj-text 
-                   padding="40px 24px 0px 24px"
                    font-size="20px"
                    line-height="28px"
                    font-weight="700">
-            Оставьте отзыв и получите подарок
+            Скидка недели
           </mj-text>
-        </mj-column>
 
-        <!-- Last paragraph -->
-        <mj-column width="100%">
-          <mj-text padding="12px 24px 0px 24px">
+          <!--Discount subtitle-->
+          <mj-text padding="8px 0 24px">
             Мы дарим доступ к любому интересному вам блоку из любого 
             <a href="#" target="_blank">онлайн курса</a> за отзыв о нашей школе.
           </mj-text>
         </mj-column>
+        <!--Discounts end -->
       </mj-section>
 
       <!-- Card footer -->
