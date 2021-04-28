@@ -139,6 +139,10 @@
         background-position: right !important;
       }
 
+      .discount-card-body__right {
+        padding-top: 16px !important;
+      }
+
       .price {
         display: inline-block;
       }
@@ -160,6 +164,17 @@
         display: inline-block;
         font-weight: 400;
       }
+
+      .btn-more {
+        position: relative;
+        height: 40px;
+      }
+
+      .btn-more td {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+      }
       /* Discount ends */
 
       @media all and (min-width: 480px) {
@@ -173,7 +188,7 @@
         }
 
         .wrapper {
-          margin: 0 50px 40px !important;
+          margin: 0 12px 40px !important;
         }
 
         .header {
@@ -186,6 +201,16 @@
 
         .hero-article-header img {
           max-width: 160px;
+        }
+
+        .btn-more td {
+          position: relative;
+        }
+      }
+
+      @media all and (min-width: 600px) {
+        .wrapper {
+          margin: 0 50px 40px !important;
         }
       }
     </mj-style>
@@ -379,12 +404,11 @@
         <mj-section 
                     background-size="100%"
                     css-class="discount-card-body"
+                    padding="24px 16px 16px"
                     background-repeat="no-repeat"
                     background-color="#ffffff"
                     background-url="https://i.ibb.co/YpJjVH9/discount-card-bg-1.png">
-          <mj-column 
-                    width="75%"
-                    padding="24px 16px 16px">
+          <mj-column width="70%">
             <mj-text 
                     padding-bottom="8px"
                     font-weight="700"
@@ -410,10 +434,19 @@
             </mj-text>
           </mj-column>
           <mj-column 
-                    width="25%">
-            <mj-text>
-              text
-            </mj-text>
+                    width="30%"
+                    css-class="discount-card-body__right"
+                    vertical-align="bottom">
+            <mj-button 
+                      background-color="transparent"
+                      css-class="btn-more"
+                      border="1px solid #EB5D18"
+                      inner-padding="12px 20px"
+                      border-radius="3px"
+                      align="right"
+                      color="#000000">
+              Подробнее →
+            </mj-button>
           </mj-column>
         </mj-section>
         <!--Card body ends-->

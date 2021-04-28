@@ -90,14 +90,14 @@
         max-width: 60%;
       }
 
-      .mj-column-per-75 {
-        width: 75% !important;
-        max-width: 75%;
+      .mj-column-per-70 {
+        width: 70% !important;
+        max-width: 70%;
       }
 
-      .mj-column-per-25 {
-        width: 25% !important;
-        max-width: 25%;
+      .mj-column-per-30 {
+        width: 30% !important;
+        max-width: 30%;
       }
     }
   </style>
@@ -127,14 +127,14 @@
       max-width: 60%;
     }
 
-    .moz-text-html .mj-column-per-75 {
-      width: 75% !important;
-      max-width: 75%;
+    .moz-text-html .mj-column-per-70 {
+      width: 70% !important;
+      max-width: 70%;
     }
 
-    .moz-text-html .mj-column-per-25 {
-      width: 25% !important;
-      max-width: 25%;
+    .moz-text-html .mj-column-per-30 {
+      width: 30% !important;
+      max-width: 30%;
     }
   </style>
   <style type="text/css">
@@ -263,6 +263,10 @@
       background-position: right !important;
     }
 
+    .discount-card-body__right {
+      padding-top: 16px !important;
+    }
+
     .price {
       display: inline-block;
     }
@@ -285,6 +289,17 @@
       font-weight: 400;
     }
 
+    .btn-more {
+      position: relative;
+      height: 40px;
+    }
+
+    .btn-more td {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+    }
+
     /* Discount ends */
     @media all and (min-width: 480px) {
       .logo table {
@@ -297,7 +312,7 @@
       }
 
       .wrapper {
-        margin: 0 50px 40px !important;
+        margin: 0 12px 40px !important;
       }
 
       .header {
@@ -310,6 +325,16 @@
 
       .hero-article-header img {
         max-width: 160px;
+      }
+
+      .btn-more td {
+        position: relative;
+      }
+    }
+
+    @media all and (min-width: 600px) {
+      .wrapper {
+        margin: 0 50px 40px !important;
       }
     }
   </style>
@@ -784,13 +809,13 @@
                   <table align="center" background="https://i.ibb.co/YpJjVH9/discount-card-bg-1.png" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff url(https://i.ibb.co/YpJjVH9/discount-card-bg-1.png) center top / 100% no-repeat;background-position:center top;background-repeat:no-repeat;background-size:100%;width:100%;">
                     <tbody>
                       <tr>
-                        <td style="direction:ltr;font-size:0px;padding:0;text-align:center;">
-                          <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:489px;" ><![endif]-->
-                          <div class="mj-column-per-75 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                        <td style="direction:ltr;font-size:0px;padding:24px 16px 16px;text-align:center;">
+                          <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:434px;" ><![endif]-->
+                          <div class="mj-column-per-70 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                             <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
                               <tbody>
                                 <tr>
-                                  <td style="vertical-align:top;padding:24px 16px 16px;">
+                                  <td style="vertical-align:top;padding:0;">
                                     <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                                       <tbody>
                                         <tr>
@@ -821,17 +846,23 @@
                               </tbody>
                             </table>
                           </div>
-                          <!--[if mso | IE]></td><td class="" style="vertical-align:top;width:163px;" ><![endif]-->
-                          <div class="mj-column-per-25 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                          <!--[if mso | IE]></td><td class="discount-card-body__right-outlook" style="vertical-align:bottom;width:186px;" ><![endif]-->
+                          <div class="mj-column-per-30 mj-outlook-group-fix discount-card-body__right" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:bottom;width:100%;">
                             <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
                               <tbody>
                                 <tr>
-                                  <td style="vertical-align:top;padding:0;">
+                                  <td style="vertical-align:bottom;padding:0;">
                                     <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                                       <tbody>
                                         <tr>
-                                          <td align="left" style="font-size:0px;padding:0;word-break:break-word;">
-                                            <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:16px;font-weight:400;line-height:20px;text-align:left;color:#000000;">text</div>
+                                          <td align="right" vertical-align="middle" class="btn-more" style="font-size:0px;padding:0;word-break:break-word;">
+                                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
+                                              <tr>
+                                                <td align="center" bgcolor="transparent" role="presentation" style="border:1px solid #EB5D18;border-radius:3px;cursor:auto;mso-padding-alt:12px 20px;background:transparent;" valign="middle">
+                                                  <p style="display:inline-block;background:transparent;color:#000000;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;font-weight:normal;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:12px 20px;mso-padding-alt:0px;border-radius:3px;"> Подробнее → </p>
+                                                </td>
+                                              </tr>
+                                            </table>
                                           </td>
                                         </tr>
                                       </tbody>
