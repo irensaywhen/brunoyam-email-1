@@ -77,7 +77,8 @@
 
       .article-body {
         background-color: #ffffff;
-        border-radius: 8px;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
       }
       /* Articles end */
 
@@ -194,14 +195,7 @@
           </mj-column>
         </mj-group>
 
-        <!-- Second paragraph -->
-        <mj-column
-                   width="100%">
-          <mj-text padding="8px 24px 0px 24px">
-            Сертификат об обучении вы найдёте во вложении к этому письму. Проверить его подлинность можно 
-            <a href="#" target="_blank">здесь</a>.
-          </mj-text>
-        </mj-column>
+        <!--Large article-->
 
         <!--Discounts start -->
 			  <mj-column width="100%">
