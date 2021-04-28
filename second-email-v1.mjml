@@ -37,8 +37,14 @@
         text-decoration: none;
       }
 
+      .header {
+        padding: 24px 60px;
+      }
+
       .wrapper {
         margin: 0 4px 40px !important;
+        background-color: #F3F6FA;
+        border-radius: 4px;
       }
 
       .footer {
@@ -62,6 +68,11 @@
       }
 
       /* Articles start */
+
+      .article {
+        margin-top: 16px !important;
+      }
+      
       .article-header {
         background-color: #A651B4;
         border-top-left-radius: 8px;
@@ -82,7 +93,7 @@
       }
 
       .hero-article-header {
-        margin: 16px 24px 0 !important;
+        margin-top: 16px !important;
         background-color: #A651B4;
         border-top-left-radius: 8px;
         border-top-right-radius: 8px;
@@ -139,6 +150,10 @@
           margin: 0 50px 40px !important;
         }
 
+        .header {
+          padding: 24px 70px;
+        }
+
         .social-icon table {
           margin: 4px 16px !important;
         }
@@ -152,13 +167,9 @@
   <!-- Head ends-->
 
   <mj-body width="700px" background-color="#EDEFF3">
-    <mj-wrapper css-class="wrapper">
-      <mj-include path="./header.mjml" />
-
-      <mj-section 
-                  background-color="#F3F6FA" 
-                  border-radius="4px"
-                  padding="32px 24px 0 24px">
+    <mj-include path="./header.mjml" />
+    <mj-wrapper css-class="wrapper" padding="32px 24px 24px">
+      <mj-section>
         <!-- Title -->
         <mj-column width="100%">
           <mj-text
@@ -173,7 +184,6 @@
         <mj-column width="100%">
           <mj-text 
                    padding-top="32px"
-                   padding-bottom="12px"
                    font-size="20px"
                    line-height="28px"
                    font-weight="700">
@@ -263,9 +273,7 @@
         <!--Large article header ends-->
         
         <!--Large article content-->
-        <mj-section 
-                    background-color="#F3F6FA" 
-                    padding="0 24px 0 24px">
+        <mj-section>
           <!--Large article metadata-->
          <mj-column 
                     width="100%"
@@ -298,7 +306,7 @@
         </mj-section>
         
 
-        <mj-section>
+        <mj-section padding-top="40px">
         <!--Discounts start -->
 			  <mj-column width="100%">
           <!--Discount title-->
