@@ -1,4 +1,4 @@
-<mj-section padding="24px 20px">
+<mj-section css-class="header">
   <!--Logo-->
   <mj-column vertical-align="middle">
     <mj-image

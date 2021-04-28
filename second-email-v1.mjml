@@ -38,7 +38,7 @@
       }
 
       .wrapper {
-          padding: 0 4px 40px !important;
+        margin: 0 4px 40px !important;
       }
 
       .footer {
@@ -136,7 +136,7 @@
         }
 
         .wrapper {
-          padding: 0 50px 40px !important;
+          margin: 0 50px 40px !important;
         }
 
         .social-icon table {
