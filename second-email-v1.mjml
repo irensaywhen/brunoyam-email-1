@@ -90,6 +90,14 @@
         max-width: 160px;
         margin: 0 auto;
       }
+
+      .tag {
+        display: inline-block;
+        color: #ffffff;
+        background-color: #A651B4;
+        border-radius: 2px;
+        padding: 4px 8px;
+      }
       /* Articles end */
 
       /* Discount starts */
@@ -128,7 +136,7 @@
       <mj-section 
                   background-color="#F3F6FA" 
                   border-radius="4px"
-                  padding="32px 24px 24px">
+                  padding="32px 24px 0 24px">
         <!-- Title -->
         <mj-column width="100%">
           <mj-text
@@ -204,17 +212,18 @@
             </mj-text>
           </mj-column>
         </mj-group>
+        </mj-section>
 
-        <mj-column width="100%" padding-top="24px">
-          
-        </mj-column>
+        <mj-section 
+                    background-color="#F3F6FA" 
+                    padding="24px 24px 0">
         <!--Large article header-->
         <mj-group 
                   width="100%" 
                   css-class="hero-article-header" 
                   background-color="#A651B4">
           <mj-column 
-                    width="66%"
+                    width="50%"
                     padding="62px 12px 62px 24px"
                     background-color="green">
             <mj-text color="#ffffff">
@@ -224,7 +233,7 @@
             </mj-text>
           </mj-column>
           <mj-column 
-                    width="34%"
+                    width="50%"
                     css-class="hero-article-header__img-card"
                     padding="32px 24px 32px 12px"
                     background-color="red">
@@ -232,6 +241,43 @@
           </mj-column>
         </mj-group>
 
+        
+        </mj-section>
+
+          
+        <!--Large article content-->
+        <mj-section 
+                    background-color="#F3F6FA" 
+                    padding="24px">
+          <!--Large article metadata-->
+         <mj-column width="100%">
+            <mj-raw>
+              <div class="tag">
+                Маркетинг
+              </div>
+              <div class="meta">
+                ~7 мин
+              </div>
+              <div class="meta">
+                29 янв 2021
+              </div>
+            </mj-raw>
+         </mj-column>
+          <!--Large article title-->
+          <mj-column 
+                    width="100%"
+                    padding-top="16px">
+            <mj-text
+                    font-size="20px"
+                    line-height="28px"
+                    font-weight="700">
+              Большой гайд по рекламе у блогеров в Instagram
+            </mj-text>
+          </mj-column>
+        </mj-section>
+        
+
+        <mj-section>
         <!--Discounts start -->
 			  <mj-column width="100%">
           <!--Discount title-->
