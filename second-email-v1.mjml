@@ -299,165 +299,163 @@
             </mj-text>
           </mj-column>
         </mj-group>
-        </mj-section>
+      </mj-section>
 
-        <!--Large article header-->
-        <mj-section 
-                    css-class="hero-article-header"
-                    direction="rtl" 
-                    padding="24px 12px">
-          <mj-column 
-                    width="40%"
-                    vertical-align="middle"
-                    padding="12px">
-            <mj-include path="./components/second-email/article-img.mjml" />
-          </mj-column>
+      <!--Large article header-->
+      <mj-section 
+                  css-class="hero-article-header"
+                  direction="rtl" 
+                  padding="24px 12px">
+        <mj-column 
+                  width="40%"
+                  vertical-align="middle"
+                  padding="12px">
+          <mj-include path="./components/second-email/article-img.mjml" />
+        </mj-column>
+        <mj-column 
+                  width="60%"
+                  vertical-align="middle"
+                  padding-left="12px"
+                  padding-right="12px">
+          <mj-text color="#ffffff">
+            Как выбрать блогера для своего продукта, как составить договор, 
+            и стоит ли работать с диджитал агенствами, вы узнаете 
+            в этой статье
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!--Large article header ends-->
+        
+      <!--Large article content starts-->
+      <mj-section>
+        <!--Large article metadata-->
+       <mj-column 
+                  width="100%"
+                  padding="16px 24px 0"
+                  background-color="#ffffff">
+          <mj-raw>
+            <div class="meta meta--tag">
+              Маркетинг
+            </div>
+            <div class="meta meta--readtime">
+              ~7 мин
+            </div>
+            <div class="meta">
+              29 янв 2021
+            </div>
+          </mj-raw>
+       </mj-column>
+        <!--Large article title-->
+        <mj-column 
+                  width="100%"
+                  padding="16px 24px 24px"
+                  css-class="hero-article-title">
+          <mj-text
+                  font-size="20px"
+                  line-height="28px"
+                  font-weight="700">
+            Большой гайд по рекламе у блогеров в Instagram
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!--Large article content ends-->
 
+      <!--Discounts start -->
+      <mj-section padding-top="40px">
+			  <mj-column width="100%">
+          <!--Discount title-->
+          <mj-text 
+                   font-size="20px"
+                   line-height="28px"
+                   font-weight="700">
+            Скидка недели
+          </mj-text>
+          <!--Discount subtitle-->
+          <mj-text padding="8px 0 24px">
+            В каждом дайджесте мы публикуем скидку на один из наших курсов, скидка действует в течение недели.
+          </mj-text>
+        </mj-column>
+        <!--Card header-->
+        <mj-group 
+                  width="100%" 
+                  css-class="discount-header" 
+                  background-color="#EB5D18">
           <mj-column 
                     width="60%"
                     vertical-align="middle"
-                    padding-left="12px"
-                    padding-right="12px">
-            <mj-text color="#ffffff">
-              Как выбрать блогера для своего продукта, как составить договор, 
-              и стоит ли работать с диджитал агенствами, вы узнаете 
-              в этой статье
-            </mj-text>
-          </mj-column>
-        </mj-section>
-        <!--Large article header ends-->
-        
-        <!--Large article content starts-->
-        <mj-section>
-          <!--Large article metadata-->
-         <mj-column 
-                    width="100%"
-                    padding="16px 24px 0"
-                    background-color="#ffffff">
-            <mj-raw>
-              <div class="meta meta--tag">
-                Маркетинг
-              </div>
-              <div class="meta meta--readtime">
-                ~7 мин
-              </div>
-              <div class="meta">
-                29 янв 2021
-              </div>
-            </mj-raw>
-         </mj-column>
-          <!--Large article title-->
-          <mj-column 
-                    width="100%"
-                    padding="16px 24px 24px"
-                    css-class="hero-article-title">
-            <mj-text
-                    font-size="20px"
-                    line-height="28px"
-                    font-weight="700">
-              Большой гайд по рекламе у блогеров в Instagram
-            </mj-text>
-          </mj-column>
-        </mj-section>
-        <!--Large article content ends-->
-
-        <!--Discounts start -->
-        <mj-section padding-top="40px">
-			    <mj-column width="100%">
-            <!--Discount title-->
-            <mj-text 
-                     font-size="20px"
-                     line-height="28px"
-                     font-weight="700">
-              Скидка недели
-            </mj-text>
-
-            <!--Discount subtitle-->
-            <mj-text padding="8px 0 24px">
-              В каждом дайджесте мы публикуем скидку на один из наших курсов, скидка действует в течение недели.
-            </mj-text>
-          </mj-column>
-
-          <!--Card header-->
-          <mj-group 
-                    width="100%" 
-                    css-class="discount-header" 
-                    background-color="#EB5D18">
-            <mj-column 
-                      width="60%"
-                      vertical-align="middle"
-                      padding="16px">
-              <mj-text mj-class="discount-header__text">
-                - 10% по промокоду SMM300
-              </mj-text>
-            </mj-column>
-            <mj-column 
-                      width="40%"
-                      vertical-align="middle"
-                      padding="16px" >
-              <mj-text 
-                      mj-class="discount-header__text" 
-                      align="right">
-                до 15.04.2021
-              </mj-text>
-            </mj-column>
-          </mj-group>
-        </mj-section>
-
-        <!--Card body starts-->
-        <mj-section 
-                    background-size="100%"
-                    css-class="discount-card-body"
-                    border-radius="8px"
-                    padding="24px 16px 16px"
-                    background-repeat="no-repeat"
-                    background-color="#ffffff"
-                    background-url="https://i.ibb.co/YpJjVH9/discount-card-bg-1.png">
-          <mj-column width="70%">
-            <mj-text 
-                    padding-bottom="8px"
-                    font-weight="700"
-                    line-height="22px">
-              Курс SMM: привлечение клиентов из соцсетей
-            </mj-text>
-            <mj-text 
-                    padding-bottom="26px">
-              Вы изучите ЦА, научитесь настраивать таргетированную рекламу, профессионально вести аккаунты и привлекать клиентов в Instagram, Vk и Facebook.
-            </mj-text>
-            <mj-text>
-              <mj-raw>
-                <div class="price price--new">
-                  13 900 
-                  <div class="price__currency">
-                    ₽
-                  </div>
-                </div>
-                <div class="price price--old">
-                  14 200 ₽
-                </div>
-            </mj-raw>
+                    padding="16px">
+            <mj-text mj-class="discount-header__text">
+              - 10% по промокоду SMM300
             </mj-text>
           </mj-column>
           <mj-column 
-                    width="30%"
-                    css-class="discount-card-body__right"
-                    vertical-align="bottom">
-            <mj-button 
-                      background-color="transparent"
-                      css-class="btn-more"
-                      border="1px solid #EB5D18"
-                      inner-padding="12px 20px"
-                      border-radius="3px"
-                      href="#"
-                      align="right"
-                      color="#000000">
-              Подробнее →
-            </mj-button>
+                    width="40%"
+                    vertical-align="middle"
+                    padding="16px" >
+            <mj-text 
+                    mj-class="discount-header__text" 
+                    align="right">
+              до 15.04.2021
+            </mj-text>
           </mj-column>
-        </mj-section>
-        <!--Card body ends-->
-        <!--Discounts end -->
+        </mj-group>
       </mj-section>
+
+      <!--Card body starts-->
+      <mj-section 
+                  background-size="100%"
+                  css-class="discount-card-body"
+                  border-radius="8px"
+                  padding="24px 16px 16px"
+                  background-repeat="no-repeat"
+                  background-color="#ffffff"
+                  background-url="https://i.ibb.co/YpJjVH9/discount-card-bg-1.png">
+        <mj-column width="70%">
+          <mj-text 
+                  padding-bottom="8px"
+                  font-weight="700"
+                  line-height="22px">
+            Курс SMM: привлечение клиентов из соцсетей
+          </mj-text>
+          <mj-text 
+                  padding-bottom="26px">
+            Вы изучите ЦА, научитесь настраивать таргетированную рекламу, профессионально вести аккаунты и привлекать клиентов в Instagram, Vk и Facebook.
+          </mj-text>
+          <mj-text>
+            <mj-raw>
+              <div class="price price--new">
+                13 900 
+                <div class="price__currency">
+                  ₽
+                </div>
+              </div>
+              <div class="price price--old">
+                14 200 ₽
+              </div>
+          </mj-raw>
+          </mj-text>
+        </mj-column>
+        <mj-column 
+                  width="30%"
+                  css-class="discount-card-body__right"
+                  vertical-align="bottom">
+          <mj-button 
+                    background-color="transparent"
+                    css-class="btn-more"
+                    border="1px solid #EB5D18"
+                    inner-padding="12px 20px"
+                    border-radius="3px"
+                    href="#"
+                    align="right"
+                    color="#000000">
+            Подробнее →
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <!--Card body ends-->
+      <!--Discounts end -->
+      
+      
     </mj-wrapper>
     <mj-include path="./footer.mjml" />
   </mj-body>
