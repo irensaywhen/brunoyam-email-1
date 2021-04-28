@@ -318,9 +318,7 @@
                     font-size="16px"
                     line-height="21px"
                     font-weight="700">
-              <mj-raw>
                 <a class="title" href="#">Большой гайд по рекламе у блогеров в Instagram</a>
-              </mj-raw>
             </mj-text>
             <mj-text 
                     padding="0 12px 37px 12px">
@@ -347,9 +345,7 @@
                     font-size="16px"
                     line-height="21px"
                     font-weight="700">
-              <mj-raw>
                 <a class="title" href="#">Большой гайд по рекламе у блогеров в Instagram</a>
-              </mj-raw>
             </mj-text>
             <mj-text 
                     padding="0 12px 37px 12px">
@@ -412,9 +408,7 @@
                   font-size="20px"
                   line-height="28px"
                   font-weight="700">
-            <mj-raw>
-              <a class="title" href="#">Большой гайд по рекламе у блогеров в Instagram</a>
-            </mj-raw>
+            <a class="title" href="#">Большой гайд по рекламе у блогеров в Instagram</a>
           </mj-text>
         </mj-column>
       </mj-section>
@@ -475,9 +469,7 @@
                   padding-bottom="8px"
                   font-weight="700"
                   line-height="22px">
-            <mj-raw>
-              <a class="title" href="#">Курс SMM: привлечение клиентов из соцсетей</a>
-            </mj-raw>
+            <a class="title" href="#">Курс SMM: привлечение клиентов из соцсетей</a>
           </mj-text>
           <mj-text 
                   padding-bottom="26px">
@@ -550,9 +542,7 @@
                   font-weight="700"
                   line-height="22px"
                   padding-bottom="8px">
-            <mj-raw>
-              <a class="title" href="#">Внедряем новую методику преподавания</a>
-            </mj-raw>
+            <a class="title" href="#">Внедряем новую методику преподавания</a>
           </mj-text>
           <mj-text>
             Это очень крутая методика от наших немецких коллег, знания буквально сами лезут в голову ученикам, можно даже не стараться!
@@ -580,9 +570,7 @@
                   font-weight="700"
                   line-height="22px"
                   padding-bottom="8px">
-            <mj-raw>
-              <a class="title" href="#">Внедряем новую методику преподавания</a>
-            </mj-raw>
+            <a class="title" href="#">Внедряем новую методику преподавания</a>
           </mj-text>
           <mj-text>
             Это очень крутая методика от наших немецких коллег, знания буквально сами лезут в голову ученикам, можно даже не стараться!
@@ -604,9 +592,7 @@
                   align="center"
                   color="#59647A">
             Вы получили это письмо потому что подписались на рассылку на сайте 
-            <mj-raw>
-              <a href="#" class="meta-footer-link">brunoyam.com.</a>
-            </mj-raw>
+            <a href="#" class="meta-footer-link">brunoyam.com.</a>
           </mj-text>
         </mj-column>
         <mj-column width="100%" padding-top="8px">
@@ -614,9 +600,7 @@
                   align="center"
                   color="#59647A">
             Вы можете
-            <mj-raw>
-              <a href="#" class="meta-footer-link">отписаться от рассылки</a>,
-            </mj-raw>
+            <a href="#" class="meta-footer-link">отписаться от рассылки</a>,
             но мы будем по вам очень скучать.
           </mj-text>
         </mj-column>
