@@ -82,12 +82,14 @@
       }
 
       .hero-article-header {
+        margin: 16px 24px 0 !important;
+        background-color: #A651B4;
         border-top-left-radius: 8px;
         border-top-right-radius: 8px;
       }
 
-      .hero-article-header__img-card img {
-        max-width: 160px;
+      .hero-article-header img {
+        max-width: 118px;
         margin: 0 auto;
       }
 
@@ -139,6 +141,10 @@
 
         .social-icon table {
           margin: 4px 16px !important;
+        }
+
+        .hero-article-header img {
+          max-width: 160px;
         }
       }
     </mj-style>
@@ -232,30 +238,27 @@
 
         <!--Large article header-->
         <mj-section 
-                    background-color="#F3F6FA" 
-                    padding="24px 24px 0">
-        <mj-group 
-                  width="100%" 
-                  css-class="hero-article-header" 
-                  background-color="#A651B4">
+                    css-class="hero-article-header"
+                    direction="rtl" 
+                    padding="24px 12px">
           <mj-column 
-                    width="50%"
-                    padding="62px 12px 62px 24px"
-                    background-color="green">
+                    width="40%"
+                    vertical-align="middle"
+                    padding="12px">
+            <mj-include path="./components/second-email/article-img.mjml" />
+          </mj-column>
+
+          <mj-column 
+                    width="60%"
+                    vertical-align="middle"
+                    padding-left="12px"
+                    padding-right="12px">
             <mj-text color="#ffffff">
               Как выбрать блогера для своего продукта, как составить договор, 
               и стоит ли работать с диджитал агенствами, вы узнаете 
               в этой статье
             </mj-text>
           </mj-column>
-          <mj-column 
-                    width="50%"
-                    css-class="hero-article-header__img-card"
-                    padding="32px 24px 32px 12px"
-                    background-color="red">
-            <mj-include path="./components/second-email/article-img.mjml" />
-          </mj-column>
-        </mj-group>
         </mj-section>
         <!--Large article header ends-->
         
