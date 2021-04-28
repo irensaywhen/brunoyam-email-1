@@ -354,9 +354,18 @@
                     background-size="cover"
                     background-repeat="no-repeat"
                     background-url="https://i.ibb.co/YpJjVH9/discount-card-bg-1.png">
-          <mj-column width="75%">
-            <mj-text>
+          <mj-column 
+                    width="75%"
+                    padding="24px 16px 16px">
+            <mj-text 
+                    padding-bottom="8px"
+                    font-weight="700"
+                    line-height="22px">
               Курс SMM: привлечение клиентов из соцсетей
+            </mj-text>
+            <mj-text 
+                    padding-bottom="26px">
+              Вы изучите ЦА, научитесь настраивать таргетированную рекламу, профессионально вести аккаунты и привлекать клиентов в Instagram, Vk и Facebook.
             </mj-text>
           </mj-column>
           <mj-column width="25%">
