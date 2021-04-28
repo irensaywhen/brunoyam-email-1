@@ -404,6 +404,7 @@
         <mj-section 
                     background-size="100%"
                     css-class="discount-card-body"
+                    border-radius="8px"
                     padding="24px 16px 16px"
                     background-repeat="no-repeat"
                     background-color="#ffffff"
