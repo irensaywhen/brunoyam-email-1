@@ -170,6 +170,10 @@
         height: 40px;
       }
 
+      .btn-more a {
+        color: #000000 !important;
+      }
+
       .btn-more td {
         position: absolute;
         left: 0;
@@ -444,6 +448,7 @@
                       border="1px solid #EB5D18"
                       inner-padding="12px 20px"
                       border-radius="3px"
+                      href="#"
                       align="right"
                       color="#000000">
               Подробнее →
