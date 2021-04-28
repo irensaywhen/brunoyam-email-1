@@ -91,18 +91,22 @@
         margin: 0 auto;
       }
 
-      .tag {
+      .meta {
         display: inline-block;
+        margin-top: 8px;
+        padding: 4px 8px;
+        color: #59647A;
+      }
+
+      .meta--tag {
         color: #ffffff;
         background-color: #A651B4;
         border-radius: 2px;
-        padding: 4px 8px;
       }
 
-      .meta {
-        display: inline-block;
+      .meta--readtime {
         margin-left: 16px;
-        color: #59647A;
+        margin-right: 16px;
       }
 
       .hero-article-title {
@@ -262,13 +266,13 @@
           <!--Large article metadata-->
          <mj-column 
                     width="100%"
-                    padding="24px 24px 0"
+                    padding="16px 24px 0"
                     background-color="#ffffff">
             <mj-raw>
-              <div class="tag">
+              <div class="meta meta--tag">
                 Маркетинг
               </div>
-              <div class="meta">
+              <div class="meta meta--readtime">
                 ~7 мин
               </div>
               <div class="meta">
