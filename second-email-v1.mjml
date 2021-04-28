@@ -72,7 +72,7 @@
       .article {
         margin-top: 16px !important;
       }
-      
+
       .article-header {
         background-color: #A651B4;
         border-top-left-radius: 8px;
@@ -272,7 +272,7 @@
         </mj-section>
         <!--Large article header ends-->
         
-        <!--Large article content-->
+        <!--Large article content starts-->
         <mj-section>
           <!--Large article metadata-->
          <mj-column 
@@ -304,60 +304,59 @@
             </mj-text>
           </mj-column>
         </mj-section>
-        
+        <!--Large article content ends-->
 
-        <mj-section padding-top="40px">
         <!--Discounts start -->
-			  <mj-column width="100%">
-          <!--Discount title-->
-          <mj-text 
-                   font-size="20px"
-                   line-height="28px"
-                   font-weight="700">
-            Скидка недели
-          </mj-text>
-
-          <!--Discount subtitle-->
-          <mj-text padding="8px 0 24px">
-            В каждом дайджесте мы публикуем скидку на один из наших курсов, скидка действует в течение недели.
-          </mj-text>
-        </mj-column>
-
-        <!--Card header-->
-        <mj-group 
-                  width="100%" 
-                  css-class="discount-header" 
-                  background-color="#EB5D18">
-          <mj-column 
-                    width="50%"
-                    padding="16px">
-            <mj-text mj-class="discount-header__text">
-              - 10% по промокоду SMM300
-            </mj-text>
-          </mj-column>
-          <mj-column 
-                    width="50%"
-                    padding="16px" >
+        <mj-section padding-top="40px">
+			    <mj-column width="100%">
+            <!--Discount title-->
             <mj-text 
-                    mj-class="discount-header__text" 
-                    align="right">
-              до 15.04.2021
+                     font-size="20px"
+                     line-height="28px"
+                     font-weight="700">
+              Скидка недели
+            </mj-text>
+
+            <!--Discount subtitle-->
+            <mj-text padding="8px 0 24px">
+              В каждом дайджесте мы публикуем скидку на один из наших курсов, скидка действует в течение недели.
             </mj-text>
           </mj-column>
-        </mj-group>
 
-        <!--Card body-->
-        <mj-group width="100%" background-color="#fff">
-          <mj-column width="66%">
-            
-          </mj-column>
-          <mj-column width="33%">
-            
-          </mj-column>
-        </mj-group>
+          <!--Card header-->
+          <mj-group 
+                    width="100%" 
+                    css-class="discount-header" 
+                    background-color="#EB5D18">
+            <mj-column 
+                      width="60%"
+                      vertical-align="middle"
+                      padding="16px">
+              <mj-text mj-class="discount-header__text">
+                - 10% по промокоду SMM300
+              </mj-text>
+            </mj-column>
+            <mj-column 
+                      width="40%"
+                      vertical-align="middle"
+                      padding="16px" >
+              <mj-text 
+                      mj-class="discount-header__text" 
+                      align="right">
+                до 15.04.2021
+              </mj-text>
+            </mj-column>
+          </mj-group>
+        </mj-section>
+
+        <!--Card body starts-->
+        <mj-section>
+          
+        </mj-section>
+        <!--Card body ends-->
         <!--Discounts end -->
       </mj-section>
-      <mj-include path="./footer.mjml" />
     </mj-wrapper>
+    <mj-include path="./footer.mjml" />
   </mj-body>
 </mjml>
