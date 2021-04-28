@@ -192,6 +192,11 @@
       }
       /*News ends */
 
+      .wrapper--meta {
+        padding-left: 16px;
+        padding-right: 16px;
+      }
+
       @media all and (min-width: 480px) {
         .logo table {
           margin-right: auto !important;
@@ -204,6 +209,11 @@
 
         .wrapper {
           margin: 0 12px 40px !important;
+        }
+
+        .wrapper--meta {
+          padding-left: 60px;
+          padding-right: 60px;
         }
 
         .header {
@@ -226,6 +236,11 @@
       @media all and (min-width: 600px) {
         .wrapper {
           margin: 0 50px 40px !important;
+        }
+
+        .wrapper--meta {
+          padding-left: 112px;
+          padding-right: 112px;
         }
       }
 
@@ -533,7 +548,7 @@
     </mj-wrapper>
 
     <mj-wrapper 
-                css-class="wrapper" 
+                css-class="wrapper wrapper--meta" 
                 background-color="#EDEFF3">
       <mj-section>
         <mj-column width="100%">
