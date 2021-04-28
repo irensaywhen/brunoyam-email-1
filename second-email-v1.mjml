@@ -80,6 +80,16 @@
         border-bottom-left-radius: 8px;
         border-bottom-right-radius: 8px;
       }
+
+      .hero-article-header {
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+      }
+
+      .hero-article-header__img-card img {
+        max-width: 160px;
+        margin: 0 auto;
+      }
       /* Articles end */
 
       /* Discount starts */
@@ -195,7 +205,32 @@
           </mj-column>
         </mj-group>
 
-        <!--Large article-->
+        <mj-column width="100%" padding-top="24px">
+          
+        </mj-column>
+        <!--Large article header-->
+        <mj-group 
+                  width="100%" 
+                  css-class="hero-article-header" 
+                  background-color="#A651B4">
+          <mj-column 
+                    width="66%"
+                    padding="62px 12px 62px 24px"
+                    background-color="green">
+            <mj-text color="#ffffff">
+              Как выбрать блогера для своего продукта, как составить договор, 
+              и стоит ли работать с диджитал агенствами, вы узнаете 
+              в этой статье
+            </mj-text>
+          </mj-column>
+          <mj-column 
+                    width="34%"
+                    css-class="hero-article-header__img-card"
+                    padding="32px 24px 32px 12px"
+                    background-color="red">
+            <mj-include path="./components/second-email/article-img.mjml" />
+          </mj-column>
+        </mj-group>
 
         <!--Discounts start -->
 			  <mj-column width="100%">
