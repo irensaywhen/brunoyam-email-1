@@ -350,8 +350,20 @@
         </mj-section>
 
         <!--Card body starts-->
-        <mj-section>
-          
+        <mj-section 
+                    background-size="cover"
+                    background-repeat="no-repeat"
+                    background-url="https://i.ibb.co/YpJjVH9/discount-card-bg-1.png">
+          <mj-column width="75%">
+            <mj-text>
+              Курс SMM: привлечение клиентов из соцсетей
+            </mj-text>
+          </mj-column>
+          <mj-column width="25%">
+            <mj-text>
+              text
+            </mj-text>
+          </mj-column>
         </mj-section>
         <!--Card body ends-->
         <!--Discounts end -->
