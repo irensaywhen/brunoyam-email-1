@@ -233,8 +233,12 @@
         margin-bottom: 0 !important;
       }
 
-      .wrapper-footer {
+      .wrapper--footer {
         margin-top: 24px !important;
+        margin-bottom: 24px !important;
+      }
+      .meta-footer-link {
+        color: #59647A !important;
       }
     </mj-style>
   </mj-head>
@@ -524,8 +528,36 @@
       </mj-section>
     </mj-wrapper>
 
-    <mj-wrapper css-class="wrapper wrapper-footer">
+    <mj-wrapper css-class="wrapper wrapper--footer">
       <mj-include path="./footer.mjml" />
+    </mj-wrapper>
+
+    <mj-wrapper 
+                css-class="wrapper" 
+                background-color="#EDEFF3">
+      <mj-section>
+        <mj-column width="100%">
+          <mj-text 
+                  align="center"
+                  color="#59647A">
+            Вы получили это письмо потому что подписались на рассылку на сайте 
+            <mj-raw>
+              <a href="#" class="meta-footer-link">brunoyam.com.</a>
+            </mj-raw>
+          </mj-text>
+        </mj-column>
+        <mj-column width="100%" padding-top="8px">
+          <mj-text 
+                  align="center"
+                  color="#59647A">
+            Вы можете
+            <mj-raw>
+              <a href="#" class="meta-footer-link">отписаться от рассылки</a>,
+            </mj-raw>
+            но мы будем по вам очень скучать.
+          </mj-text>
+        </mj-column>
+      </mj-section>
     </mj-wrapper>
   </mj-body>
 </mjml>
