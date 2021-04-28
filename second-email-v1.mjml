@@ -48,9 +48,9 @@
       }
 
       .footer {
-        background-color: #fff;
-        margin-top: 16px !important;
         padding: 32px 24px;
+        background-color: #F3F6FA;
+        margin-top: 16px !important;
         border-radius: 4px;
       }
 
@@ -186,6 +186,12 @@
         text-decoration: none;
       }
 
+      /*News starts*/
+      .news-description {
+
+      }
+      /*News ends */
+
       @media all and (min-width: 480px) {
         .logo table {
           margin-right: auto !important;
@@ -222,13 +228,21 @@
           margin: 0 50px 40px !important;
         }
       }
+
+      .wrapper--main {
+        margin-bottom: 0 !important;
+      }
+
+      .wrapper-footer {
+        margin-top: 24px !important;
+      }
     </mj-style>
   </mj-head>
   <!-- Head ends-->
 
   <mj-body width="700px" background-color="#EDEFF3">
     <mj-include path="./header.mjml" />
-    <mj-wrapper css-class="wrapper" padding="32px 24px 24px">
+    <mj-wrapper css-class="wrapper wrapper--main" padding="32px 24px 24px">
       <mj-section>
         <!-- Title -->
         <mj-column width="100%">
@@ -485,9 +499,14 @@
       <mj-section>
         <mj-column 
                   width="45%">
-          
+          <mj-image 
+                    src="https://i.ibb.co/Z2J0Hf9/Rectangle-265.png" 
+                    border-radius="8px"
+                    href="#"
+                    alt="" />
         </mj-column>
-        <mj-column 
+        <mj-column
+                  css-class="news-description" 
                   width="55%">
           <mj-text
                   font-size="16px"
@@ -504,6 +523,9 @@
         </mj-column>
       </mj-section>
     </mj-wrapper>
-    <mj-include path="./footer.mjml" />
+
+    <mj-wrapper css-class="wrapper wrapper-footer">
+      <mj-include path="./footer.mjml" />
+    </mj-wrapper>
   </mj-body>
 </mjml>
