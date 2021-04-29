@@ -77,8 +77,8 @@
         background-color: #A651B4;
         border-top-left-radius: 8px;
         border-top-right-radius: 8px;
-        padding-top: 16px;
-        padding-bottom: 16px;
+        padding-top: 16px !important;
+        padding-bottom: 16px !important;
       }
 
       .article-header img {
@@ -283,67 +283,83 @@
         <mj-column width="100%">
           <mj-text 
                    padding-top="32px"
+                   padding-bottom="16px"
                    font-size="20px"
                    line-height="28px"
                    font-weight="700">
             Новые статьи
           </mj-text>
         </mj-column>
-
-        <!--Article-->
-        <mj-group 
-                  width="50%"
-                  css-class="article">
-          <mj-column 
-                    width="94%"
-                    css-class="article-header">
-            <mj-include path="./components/second-email/article-img.mjml" />
-          </mj-column>
-          <!--Article text-->
-          <mj-column 
-                    width="94%"
-                    css-class="article-body">
-            <mj-text
-                    padding="16px 12px 8px"
-                    font-size="16px"
-                    line-height="21px"
-                    font-weight="700">
-                <a class="title" href="#">Большой гайд по рекламе у блогеров в Instagram</a>
-            </mj-text>
-            <mj-text 
-                    padding="0 12px 37px 12px">
-              Как выбрать блогера для своего продукта, как составить договор, и стоит ли работать с диджитал агенствами, вы узнаете в этой статье
-            </mj-text>
-          </mj-column>
-        </mj-group>
-
-        <!--Article-->
-        <mj-group 
-                  width="50%"
-                  css-class="article">
-          <mj-column 
-                    width="94%"
-                    css-class="article-header">
-            <mj-include path="./components/second-email/article-img.mjml" />
-          </mj-column>
-          <!--Article text-->
-          <mj-column 
-                    width="94%"
-                    css-class="article-body">
-            <mj-text
-                    padding="16px 12px 8px"
-                    font-size="16px"
-                    line-height="21px"
-                    font-weight="700">
-                <a class="title" href="#">Большой гайд по рекламе у блогеров в Instagram</a>
-            </mj-text>
-            <mj-text 
-                    padding="0 12px 37px 12px">
-              Как выбрать блогера для своего продукта, как составить договор, и стоит ли работать с диджитал агенствами, вы узнаете в этой статье
-            </mj-text>
-          </mj-column>
-        </mj-group>
       </mj-section>
+
+      <!--Articles-->
+      <mj-section>
+        <!--Article-->
+        <mj-column width="50%" padding-right="12px">
+          <mj-image 
+                    css-class="article-header"
+                    src="https://i.ibb.co/JRBqQ8C/Intersect.png" 
+                    alt="" />
+        </mj-column>
+
+        <!--Article-->
+        <mj-column width="50%" padding-left="12px">
+          <mj-image 
+                    src="https://i.ibb.co/JRBqQ8C/Intersect.png" 
+                    css-class="article-header"
+                    alt="" />
+        </mj-column>
+      </mj-section>
+        <!--Article
+        <mj-group 
+                  width="50%"
+                  css-class="article">
+          <mj-column 
+                    width="94%"
+                    css-class="article-header">
+            <mj-include path="./components/second-email/article-img.mjml" />
+          </mj-column>
+          <mj-column 
+                    width="94%"
+                    css-class="article-body">
+            <mj-text
+                    padding="16px 12px 8px"
+                    font-size="16px"
+                    line-height="21px"
+                    font-weight="700">
+                <a class="title" href="#">Большой гайд по рекламе у блогеров в Instagram</a>
+            </mj-text>
+            <mj-text 
+                    padding="0 12px 37px 12px">
+              Как выбрать блогера для своего продукта, как составить договор, и стоит ли работать с диджитал агенствами, вы узнаете в этой статье
+            </mj-text>
+          </mj-column>
+        </mj-group>
+        <mj-group 
+                  width="50%"
+                  css-class="article">
+          <mj-column 
+                    width="94%"
+                    css-class="article-header">
+            <mj-include path="./components/second-email/article-img.mjml" />
+          </mj-column>
+          <mj-column 
+                    width="94%"
+                    css-class="article-body">
+            <mj-text
+                    padding="16px 12px 8px"
+                    font-size="16px"
+                    line-height="21px"
+                    font-weight="700">
+                <a class="title" href="#">Большой гайд по рекламе у блогеров в Instagram</a>
+            </mj-text>
+            <mj-text 
+                    padding="0 12px 37px 12px">
+              Как выбрать блогера для своего продукта, как составить договор, и стоит ли работать с диджитал агенствами, вы узнаете в этой статье
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>-->
 
       <!--Large article header-->
       <mj-section 
