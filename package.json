@@ -6,7 +6,8 @@
   "scripts": {
     "build": "mjml first-email.mjml -o dist/first-email.html",
     "devFirst": "mjml -w first-email.mjml -o dist/first-email.html",
-    "devSecond": "mjml -w second-email-v1.mjml -o dist/second-email-v1.html"
+    "devSecond": "mjml -w second-email-v1.mjml -o dist/second-email-v1.html",
+    "devThird": "mjml -w second-email-v2.mjml -o dist/second-email-v2.html"
   },
   "author": "Irina Gataullina",
   "license": "ISC",
