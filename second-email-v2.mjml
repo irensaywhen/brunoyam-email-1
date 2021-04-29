@@ -168,19 +168,8 @@
         font-weight: 400;
       }
 
-      .btn-more {
-        position: relative;
-        height: 40px;
-      }
-
       .btn-more a {
         color: #000000 !important;
-      }
-
-      .btn-more td {
-        position: absolute;
-        left: 0;
-        bottom: 0;
       }
       /* Discount ends */
 
@@ -227,10 +216,6 @@
 
         .hero-article-header img {
           max-width: 160px;
-        }
-
-        .btn-more td {
-          position: relative;
         }
 
         .news-description {
@@ -458,47 +443,30 @@
                   background-repeat="no-repeat"
                   background-color="#ffffff"
                   background-url="https://i.ibb.co/YpJjVH9/discount-card-bg-1.png">
-        <mj-column width="70%">
+        <mj-column width="100%" padding-right="10%">
           <mj-text 
                   padding-bottom="8px"
                   font-weight="700"
                   line-height="22px">
-            <a class="title" href="#">Курс SMM: привлечение клиентов из соцсетей</a>
+            <a class="title" href="#">Все курсы из раздела Маркетинг</a>
           </mj-text>
           <mj-text 
                   padding-bottom="26px">
-            Вы изучите ЦА, научитесь настраивать таргетированную рекламу, профессионально вести аккаунты и привлекать клиентов в Instagram, Vk и Facebook.
+            Станьте супер специалистом, научитесь настраивать таргетированную рекламу, профессионально вести аккаунты и привлекать клиентов в Instagram, Vk и Facebook.
           </mj-text>
-          <mj-text>
-            <mj-raw>
-              <div class="price price--new">
-                13 900 
-                <div class="price__currency">
-                  ₽
-                </div>
-              </div>
-              <div class="price price--old">
-                14 200 ₽
-              </div>
-          </mj-raw>
-          </mj-text>
-        </mj-column>
-        <mj-column 
-                  width="30%"
-                  css-class="discount-card-body__right"
-                  vertical-align="bottom">
           <mj-button 
-                    background-color="transparent"
+                    background-color="#ffffff"
                     css-class="btn-more"
                     border="1px solid #EB5D18"
                     inner-padding="12px 20px"
                     border-radius="3px"
                     href="#"
-                    align="right"
+                    align="left"
                     color="#000000">
             Подробнее →
           </mj-button>
         </mj-column>
+
       </mj-section>
       <!--Card body ends-->
       <!--Discounts end -->
