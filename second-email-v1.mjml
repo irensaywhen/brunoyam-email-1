@@ -240,11 +240,11 @@
         }
 
         .article-left {
-          padding-right: 2% !important;
+          padding-right: 1% !important;
         }
 
         .article-right {
-          padding-left: 2% !important;
+          padding-left: 1% !important;
         }
       }
 
@@ -301,10 +301,10 @@
       </mj-section>
 
       <!--Articles-->
-      <mj-section>
+      <mj-section full-width="full-width">
         <!--Article-->
         <mj-column 
-                  width="46%" 
+                  width="49%" 
                   css-class="article article-left">
           <mj-image 
                     css-class="article-header"
@@ -327,7 +327,7 @@
 
         <!--Article-->
         <mj-column 
-                  width="46%" 
+                  width="49%" 
                   css-class="article article-right">
           <mj-image 
                     src="https://i.ibb.co/JRBqQ8C/Intersect.png" 
