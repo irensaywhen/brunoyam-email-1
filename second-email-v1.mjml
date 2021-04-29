@@ -488,7 +488,7 @@
                   css-class="discount-card-body__right"
                   vertical-align="bottom">
           <mj-button 
-                    background-color="transparent"
+                    background-color="#ffffff"
                     css-class="btn-more"
                     border="1px solid #EB5D18"
                     inner-padding="12px 20px"
