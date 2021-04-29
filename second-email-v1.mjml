@@ -69,6 +69,10 @@
 
       /* Articles start */
 
+      .article {
+        margin-bottom: 16px;
+      }
+
       .article-header {
         background-color: #A651B4;
         border-top-left-radius: 8px;
@@ -89,7 +93,6 @@
       }
 
       .hero-article-header {
-        margin-top: 16px !important;
         background-color: #A651B4;
         border-top-left-radius: 8px;
         border-top-right-radius: 8px;
@@ -235,6 +238,14 @@
         .news-description td {
           padding-left: 12px !important;
         }
+
+        .article-left {
+          padding-right: 2% !important;
+        }
+
+        .article-right {
+          padding-left: 2% !important;
+        }
       }
 
       @media all and (min-width: 600px) {
@@ -293,8 +304,8 @@
       <mj-section>
         <!--Article-->
         <mj-column 
-                  width="50%" 
-                  css-class="article">
+                  width="46%" 
+                  css-class="article article-left">
           <mj-image 
                     css-class="article-header"
                     src="https://i.ibb.co/JRBqQ8C/Intersect.png" 
@@ -316,8 +327,8 @@
 
         <!--Article-->
         <mj-column 
-                  width="50%" 
-                  css-class="article">
+                  width="46%" 
+                  css-class="article article-right">
           <mj-image 
                     src="https://i.ibb.co/JRBqQ8C/Intersect.png" 
                     css-class="article-header"
@@ -337,56 +348,6 @@
           </mj-text>
         </mj-column>
       </mj-section>
-        <!--Article
-        <mj-group 
-                  width="50%"
-                  css-class="article">
-          <mj-column 
-                    width="94%"
-                    css-class="article-header">
-            <mj-include path="./components/second-email/article-img.mjml" />
-          </mj-column>
-          <mj-column 
-                    width="94%"
-                    css-class="article-body">
-            <mj-text
-                    padding="16px 12px 8px"
-                    font-size="16px"
-                    line-height="21px"
-                    font-weight="700">
-                <a class="title" href="#">Большой гайд по рекламе у блогеров в Instagram</a>
-            </mj-text>
-            <mj-text 
-                    padding="0 12px 37px 12px">
-              Как выбрать блогера для своего продукта, как составить договор, и стоит ли работать с диджитал агенствами, вы узнаете в этой статье
-            </mj-text>
-          </mj-column>
-        </mj-group>
-        <mj-group 
-                  width="50%"
-                  css-class="article">
-          <mj-column 
-                    width="94%"
-                    css-class="article-header">
-            <mj-include path="./components/second-email/article-img.mjml" />
-          </mj-column>
-          <mj-column 
-                    width="94%"
-                    css-class="article-body">
-            <mj-text
-                    padding="16px 12px 8px"
-                    font-size="16px"
-                    line-height="21px"
-                    font-weight="700">
-                <a class="title" href="#">Большой гайд по рекламе у блогеров в Instagram</a>
-            </mj-text>
-            <mj-text 
-                    padding="0 12px 37px 12px">
-              Как выбрать блогера для своего продукта, как составить договор, и стоит ли работать с диджитал агенствами, вы узнаете в этой статье
-            </mj-text>
-          </mj-column>
-        </mj-group>
-      </mj-section>-->
 
       <!--Large article header-->
       <mj-section 
