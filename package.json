@@ -8,7 +8,8 @@
     "devFirst": "mjml -w first-email.mjml -o dist/first-email.html",
     "devSecond": "mjml -w second-email-v1.mjml -o dist/second-email-v1.html",
     "devThird": "mjml -w second-email-v2.mjml -o dist/second-email-v2.html",
-    "buildFourth": "mjml second-email-v3.mjml -o dist/second-email-v3.html"
+    "buildFourth": "mjml second-email-v3.mjml -o dist/second-email-v3.html",
+    "buildFifth": "mjml second-email-v4.mjml -o dist/second-email-v4.html"
   },
   "author": "Irina Gataullina",
   "license": "ISC",
