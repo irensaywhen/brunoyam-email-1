@@ -1,0 +1,573 @@
+<mjml>
+  <!-- Head starts-->
+  <mj-head>
+    <!-- Configure default attributes-->
+    <mj-attributes>
+      <mj-all 
+              padding="0"
+              font-family="Verdana" />
+      <mj-text
+               font-size="16px"
+               align="left"
+               color="#000"
+               font-weight="400"
+               line-height="20px"
+               />
+      <!--Discount header-->
+      <mj-class 
+                name="discount-header__text"
+                color="#ffffff"
+                line-height="21px"
+                font-weight="700" />
+      <mj-social-element
+                        icon-size="40px"
+                        css-class="social-icon"/>
+      <mj-class name="review-img" padding-top="12px" width="30px" />
+    </mj-attributes>
+
+    <!--Header styles-->
+    <mj-style>
+      * {
+        word-break: normal;
+      }
+
+      a {
+        color: #EB5D18 !important;
+      }
+
+      .phone a {
+        text-decoration: none;
+      }
+
+      .header {
+        padding: 24px 60px;
+      }
+
+      .wrapper {
+        margin: 0 4px 40px !important;
+        background-color: #F3F6FA;
+        border-radius: 4px;
+      }
+
+      .footer {
+        padding: 32px 24px;
+        background-color: #F3F6FA;
+        margin-top: 16px !important;
+        border-radius: 4px;
+      }
+
+      .social-icon table {
+        margin: 4px 8px !important;
+      }
+      
+      .review {
+        min-width: 128px !important;
+        max-width: 128px !important;
+      }
+      .review img {
+        min-width: 128px !important;
+        max-width: 128px !important;
+      }
+
+      /* Articles start */
+
+      .article {
+        margin-bottom: 16px;
+      }
+
+      .article-header {
+        background-color: #A651B4;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        padding-top: 16px !important;
+        padding-bottom: 16px !important;
+      }
+
+      .article-header img {
+        max-width: 118px;
+        margin: 0 auto;
+      }
+
+      .article-body {
+        background-color: #ffffff;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+      }
+
+      .hero-article-header {
+        background-color: #A651B4;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+      }
+
+      .hero-article-header img {
+        max-width: 118px;
+        margin: 0 auto;
+      }
+
+      .meta {
+        display: inline-block;
+        font-size: 14px;
+        margin-top: 8px;
+        padding: 4px 8px;
+        color: #59647A;
+      }
+
+      .meta--tag {
+        color: #ffffff;
+        background-color: #A651B4;
+        border-radius: 2px;
+      }
+
+      .meta--readtime {
+        margin-left: 16px;
+        margin-right: 16px;
+      }
+
+      .hero-article-title {
+        background-color: #ffffff;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+      }
+
+      /* Articles end */
+
+      /* Discount starts */
+      .discount-header {
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+      }
+
+      .discount-card-body {
+        background-position: right !important;
+      }
+
+      .discount-card-body__right {
+        padding-top: 16px !important;
+      }
+
+      .price {
+        display: inline-block;
+      }
+
+      .price--new {
+        font-size: 24px;
+        font-weight: 700;
+        color: #EB5D18;
+      }
+
+      .price--old {
+        position: relative;
+        margin-left: 8px;
+        color: #9AA1B0;
+        text-decoration: line-through;
+      }
+
+      .price__currency {
+        display: inline-block;
+        font-weight: 400;
+      }
+
+      .btn-more a {
+        color: #000000 !important;
+      }
+      /* Discount ends */
+
+      .title {
+        color: #000000 !important;
+        text-decoration: none;
+      }
+
+      /*News starts*/
+      .news-description {
+        padding-top: 16px;
+      }
+
+      .news-description td {
+        padding-left: 0 !important;
+      }
+      /*News ends */
+
+      .unsubscribe {
+        max-width: 377px !important;
+      }
+
+      @media all and (min-width: 480px) {
+        .logo table {
+          margin-right: auto !important;
+        }
+
+        .phone div {
+          text-align: right !important;
+          padding-top: 0;
+        }
+
+        .wrapper {
+          margin: 0 12px 40px !important;
+        }
+
+        .header {
+          padding: 24px 20px;
+        }
+
+        .social-icon table {
+          margin: 4px 16px !important;
+        }
+
+        .hero-article-header img {
+          max-width: 160px;
+        }
+
+        .news-description {
+          padding-top: 0;
+        }
+
+        .news-description td {
+          padding-left: 12px !important;
+        }
+
+        .article-left {
+          padding-right: 1% !important;
+        }
+
+        .article-right {
+          padding-left: 1% !important;
+        }
+      }
+
+      @media all and (min-width: 600px) {
+        .wrapper {
+          margin: 0 50px 40px !important;
+        }
+      }
+
+      .wrapper--main {
+        margin-bottom: 0 !important;
+      }
+
+      .wrapper--footer {
+        margin-top: 24px !important;
+        margin-bottom: 24px !important;
+      }
+      .meta-footer-link {
+        color: #59647A !important;
+      }
+    </mj-style>
+  </mj-head>
+  <!-- Head ends-->
+
+  <mj-body width="700px" background-color="#EDEFF3">
+    <mj-wrapper 
+                css-class="wrapper wrapper--main" 
+                background-color="#EDEFF3">
+      <mj-include path="./header.mjml" />
+    </mj-wrapper>
+    <mj-wrapper css-class="wrapper wrapper--main" padding="32px 24px 24px">
+      <mj-section>
+        <!-- Title -->
+        <mj-column width="100%">
+          <mj-text
+                   font-size="28px"
+                   line-height="37px"
+                   font-weight="700">
+            Второй выпуск Бруноям Дайджест: тренды SMM, видеомаркетинг и скидка недели
+          </mj-text>
+        </mj-column>
+
+        <!--News-->
+        <mj-column width="100%">
+          <mj-text 
+                   padding-top="32px"
+                   padding-bottom="16px"
+                   font-size="20px"
+                   line-height="28px"
+                   font-weight="700">
+            Новые статьи
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!--Articles-->
+      <mj-section full-width="full-width">
+        <!--Article-->
+        <mj-column 
+                  width="49%" 
+                  css-class="article article-left">
+          <mj-image 
+                    css-class="article-header"
+                    src="https://i.ibb.co/JRBqQ8C/Intersect.png" 
+                    alt="" />
+          <mj-text
+                  padding="16px 12px 8px"
+                  font-size="16px"
+                  line-height="21px"
+                  container-background-color="#fff"
+                  font-weight="700">
+              <a class="title" href="#">Большой гайд по рекламе у блогеров в Instagram</a>
+          </mj-text>
+          <mj-text 
+                  padding="0 12px 37px 12px"
+                  css-class="article-body">
+            Как выбрать блогера для своего продукта, как составить договор, и стоит ли работать с диджитал агенствами, вы узнаете в этой статье
+          </mj-text>
+        </mj-column>
+
+        <!--Article-->
+        <mj-column 
+                  width="49%" 
+                  css-class="article article-right">
+          <mj-image 
+                    src="https://i.ibb.co/JRBqQ8C/Intersect.png" 
+                    css-class="article-header"
+                    alt="" />
+          <mj-text
+                  padding="16px 12px 8px"
+                  font-size="16px"
+                  line-height="21px"
+                  container-background-color="#fff"
+                  font-weight="700">
+              <a class="title" href="#">Большой гайд по рекламе у блогеров в Instagram</a>
+          </mj-text>
+          <mj-text 
+                  padding="0 12px 37px 12px"
+                  css-class="article-body">
+            Как выбрать блогера для своего продукта, как составить договор, и стоит ли работать с диджитал агенствами, вы узнаете в этой статье
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!--Large article header-->
+      <mj-section 
+                  css-class="hero-article-header"
+                  direction="rtl" 
+                  padding="24px 12px">
+        <mj-column 
+                  width="40%"
+                  vertical-align="middle"
+                  padding="12px">
+          <mj-include path="./components/second-email/article-img.mjml" />
+        </mj-column>
+        <mj-column 
+                  width="60%"
+                  vertical-align="middle"
+                  padding-left="12px"
+                  padding-right="12px">
+          <mj-text color="#ffffff">
+            Как выбрать блогера для своего продукта, как составить договор, 
+            и стоит ли работать с диджитал агенствами, вы узнаете 
+            в этой статье
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!--Large article header ends-->
+        
+      <!--Large article content starts-->
+      <mj-section>
+        <!--Large article metadata-->
+       <mj-column 
+                  width="100%"
+                  padding="16px 24px 0"
+                  background-color="#ffffff">
+        <mj-text>
+          <span class="meta meta--tag">Маркетинг</span>
+          <span class="meta meta--readtime">
+            ~7 мин
+          </span>
+          <span class="meta">
+            29 янв 2021
+          </span>
+        </mj-text>
+       </mj-column>
+        <!--Large article title-->
+        <mj-column 
+                  width="100%"
+                  padding="16px 24px 24px"
+                  css-class="hero-article-title">
+          <mj-text
+                  font-size="20px"
+                  line-height="28px"
+                  font-weight="700">
+            <a class="title" href="#">Большой гайд по рекламе у блогеров в Instagram</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!--Large article content ends-->
+
+      <!--Discounts start -->
+      <mj-section padding-top="40px">
+			  <mj-column width="100%">
+          <!--Discount title-->
+          <mj-text 
+                   font-size="20px"
+                   line-height="28px"
+                   font-weight="700">
+            Скидка недели
+          </mj-text>
+          <!--Discount subtitle-->
+          <mj-text padding="8px 0 24px">
+            В каждом дайджесте мы публикуем скидку на один из наших курсов, скидка действует в течение недели.
+          </mj-text>
+        </mj-column>
+        <!--Card header-->
+        <mj-group 
+                  width="100%" 
+                  css-class="discount-header" 
+                  background-color="#EB5D18">
+          <mj-column 
+                    width="60%"
+                    vertical-align="middle"
+                    padding="16px">
+            <mj-text mj-class="discount-header__text">
+              - 10% по промокоду SMM300
+            </mj-text>
+          </mj-column>
+          <mj-column 
+                    width="40%"
+                    vertical-align="middle"
+                    padding="16px" >
+            <mj-text 
+                    mj-class="discount-header__text" 
+                    align="right">
+              до 15.04.2021
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <!--Card body starts-->
+      <mj-section 
+                  background-size="100%"
+                  css-class="discount-card-body"
+                  border-radius="8px"
+                  padding="24px 16px 16px"
+                  background-repeat="no-repeat"
+                  background-color="#ffffff"
+                  background-url="https://i.ibb.co/k3nN9Cx/background-triangles.png">
+        <mj-column width="100%" padding-right="10%">
+          <mj-text 
+                  padding-bottom="8px"
+                  font-weight="700"
+                  line-height="22px">
+            <a class="title" href="#">Все курсы из раздела Программирование</a>
+          </mj-text>
+          <mj-text 
+                  padding-bottom="26px">
+            Станьте супер специалистом, научитесь настраивать таргетированную рекламу, профессионально вести аккаунты и привлекать клиентов в Instagram, Vk и Facebook.
+          </mj-text>
+          <mj-button 
+                    background-color="#ffffff"
+                    css-class="btn-more"
+                    border="1px solid #EB5D18"
+                    inner-padding="12px 20px"
+                    border-radius="3px"
+                    href="#"
+                    align="left"
+                    color="#000000">
+            Подробнее →
+          </mj-button>
+        </mj-column>
+
+      </mj-section>
+      <!--Card body ends-->
+      <!--Discounts end -->
+      
+      <!--News title-->
+      <mj-section padding-top="40px">
+        <mj-column 
+                  width="100%">
+          <mj-text
+                  font-size="20px"
+                  font-weight="700"
+                  line-height="28px">
+            Новости Бруноям
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!--News article-->
+      <mj-section padding-top="16px">
+        <mj-column 
+                  width="45%">
+          <mj-image 
+                    src="https://i.ibb.co/dBGXJmz/Rectangle-265-1.png" 
+                    border-radius="8px"
+                    fluid-on-mobile="true"
+                    href="#"
+                    alt="" />
+        </mj-column>
+        <mj-column
+                  css-class="news-description"
+                  padding-left="24px" 
+                  width="55%">
+          <mj-text
+                  font-size="16px"
+                  font-weight="700"
+                  line-height="22px"
+                  padding-bottom="8px">
+            <a class="title" href="#">Внедряем новую методику преподавания</a>
+          </mj-text>
+          <mj-text>
+            Это очень крутая методика от наших немецких коллег, знания буквально сами лезут в голову ученикам, можно даже не стараться!
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!--News article-->
+      <mj-section padding-top="16px">
+        <mj-column 
+                  width="45%">
+          <mj-image 
+                    src="https://i.ibb.co/dBGXJmz/Rectangle-265-1.png" 
+                    border-radius="8px"
+                    fluid-on-mobile="true"
+                    href="#"
+                    alt="" />
+        </mj-column>
+        <mj-column
+                  css-class="news-description"
+                  padding-left="24px" 
+                  width="55%">
+          <mj-text
+                  font-size="16px"
+                  font-weight="700"
+                  line-height="22px"
+                  padding-bottom="8px">
+            <a class="title" href="#">Внедряем новую методику преподавания</a>
+          </mj-text>
+          <mj-text>
+            Это очень крутая методика от наших немецких коллег, знания буквально сами лезут в голову ученикам, можно даже не стараться!
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-wrapper css-class="wrapper wrapper--footer">
+      <mj-include path="./footer.mjml" />
+    </mj-wrapper>
+
+    <mj-wrapper 
+                css-class="wrapper"
+                padding-bottom="24px" 
+                background-color="#EDEFF3">
+      <mj-section css-class="unsubscribe">
+        <mj-column width="100%">
+          <mj-text 
+                  align="center"
+                  color="#59647A">
+            Вы получили это письмо потому что подписались на рассылку на сайте 
+            <a href="#" class="meta-footer-link">brunoyam.com.</a>
+          </mj-text>
+        </mj-column>
+        <mj-column width="100%" padding-top="8px">
+          <mj-text 
+                  align="center"
+                  color="#59647A">
+            Вы можете
+            <a href="#" class="meta-footer-link">отписаться от рассылки</a>,
+            но мы будем по вам очень скучать.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>
